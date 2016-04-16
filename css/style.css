@@ -196,7 +196,7 @@ max-width:728px;}
 .post-body h2 {font-family:'Roboto Condensed',sans-serif;font-size:20px;font-weight:400;color:#033888;border-bottom:1px solid#033888;}
 .post-body h3 {font-family:'Roboto Condensed',sans-serif;font-size:16px;font-weight:400;color:#033888;}
 .post-body .read-more {background: #033888; color: #fff; padding: 3px 7px;}
-.post-body .read-more a:link {color:ffde79;}
+.post-body .read-more a {color:ffde79;}
 h3.post-title, h2.post-title, h1.post-title {font-family:'Roboto Condensed',sans-serif;font-size:20px;font-weight:400;text-align:center;padding:15px;}
 h3.post-title a, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {color:#033888}
 h3.post-title a, h2.post-title a, h1.post-title a {color:#033888!important; text-decoration: underline;}
