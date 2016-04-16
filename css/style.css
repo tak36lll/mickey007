@@ -423,7 +423,7 @@ input.follow-by-email-submit:hover {outline:none;background:#3683b2;color:#fff;}
 .vienna-socials-icon ul li.soundcloud{background:#f60}
 
 /* CSS Page Navigation */
-.pagenav{background-color:#fcfcfc;clear:both;margin:0;padding:20px;text-align:left;font-size:14px;font-weight:400;border-top:1px solid #ddd}
+.pagenav{background-color:#fcfcfc;clear:both;margin:0;padding:20px;text-align:center;font-size:14px;font-weight:400;border-top:1px solid #ddd}
 .pagenav .pages {background-color:transparent;color:#999;font-weight:400;text-transform:uppercase;font-size:10px;border:none;}
 .pagenav span,.pagenav a{display:inline-block;background-color:#033888;color:#fff;margin:0 2px;line-height:35px;height:35px;padding:0 12px;border-radius:1px;transition:all .2s}
 .pagenav .current,.pagenav a:hover{background:#4298cc;color:#fff;}
