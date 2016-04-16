@@ -710,7 +710,7 @@ avatar.find('.comment_avatar img').each(function() {
 			<b:else/>
             <div class='mobile-index-thumbnail'>
               <div class='Image'>
-				<img expr:alt='data:post.title' expr:title='data:post.title' src='http://3.bp.blogspot.com/-ltyYh4ysBHI/U04MKlHc6pI/AAAAAAAADQo/PFxXaGZu9PQ/s66-c/no-image.png'/>
+				<img expr:alt='data:post.title' src='http://3.bp.blogspot.com/-ltyYh4ysBHI/U04MKlHc6pI/AAAAAAAADQo/PFxXaGZu9PQ/s66-c/no-image.png'/>
               </div>
             </div>
           </b:if>
@@ -760,7 +760,7 @@ avatar.find('.comment_avatar img').each(function() {
           <div class='post-body'>
           </div>
         </div>
-        <div style='clear: both;'/>
+        <div class="cb"/>
     </div>
   </div>
 </b:includable>
@@ -885,7 +885,7 @@ avatar.find('.comment_avatar img').each(function() {
 <!-- Kode Banner/Iklan Anda Di sini -->
 &lt;/div&gt;
 </b:if>	
-            <div style='clear: both;'/> 
+            <div class="cb"/> 
 				<div id='share-buttons-mobile'>
 				<p>共有する : </p>
 				<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url' rel='nofollow' style='background:#3b5998;'>Facebook</a>
@@ -957,13 +957,13 @@ avatar.find('.comment_avatar img').each(function() {
       <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
          <h2 class='post-title entry-title'>
             <b:if cond='data:post.link'>
-               <a expr:href='data:post.link' expr:title='data:post.title'>
+               <a expr:href='data:post.link'>
                   <data:post.title/>
                </a>
                <b:else/>
                <b:if cond='data:post.url'>
                   <b:if cond='data:blog.url != data:post.url'>
-                     <a expr:data-hover='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                     <a expr:href='data:post.url'>
                         <data:post.title/>
                      </a>
                      <b:else/>
@@ -977,13 +977,13 @@ avatar.find('.comment_avatar img').each(function() {
          <b:else/>
          <h1 class='post-title entry-title'>
             <b:if cond='data:post.link'>
-               <a expr:href='data:post.link' expr:title='data:post.title'>
+               <a expr:href='data:post.link'>
                   <data:post.title/>
                </a>
                <b:else/>
                <b:if cond='data:post.url'>
                   <b:if cond='data:blog.url != data:post.url'>
-                     <a expr:data-hover='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                     <a expr:href='data:post.url'>
                         <data:post.title/>
                      </a>
                      <b:else/>
@@ -998,13 +998,13 @@ avatar.find('.comment_avatar img').each(function() {
       <b:else/>
       <h1 class='post-title entry-title'>
          <b:if cond='data:post.link'>
-            <a expr:href='data:post.link' expr:title='data:post.title'>
+            <a expr:href='data:post.link'>
                <data:post.title/>
             </a>
             <b:else/>
             <b:if cond='data:post.url'>
                <b:if cond='data:blog.url != data:post.url'>
-                  <a expr:data-hover='data:post.title' expr:href='data:post.url' expr:title='data:post.title'>
+                  <a expr:href='data:post.url'>
                      <data:post.title/>
                   </a>
                   <b:else/>
@@ -1048,6 +1048,7 @@ avatar.find('.comment_avatar img').each(function() {
         </b:if>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <b:if cond='data:post.labels'>
+<i class="fa fa-bookmark"></i>
 <span class='label-info'> 
 <b:loop values='data:post.labels' var='label'>
 <a expr:href='data:label.url + &quot;?max-results=5&quot;' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'/>
@@ -1089,7 +1090,7 @@ avatar.find('.comment_avatar img').each(function() {
 </b:if>
 <b:else/>
 <b:if cond='data:post.firstImageUrl'>
-<a expr:href='data:post.url'><div class='img-thumblite'><img expr:alt='data:post.title' expr:src='data:post.firstImageUrl' expr:title='data:post.title'/></div>
+<a expr:href='data:post.url'><div class='img-thumblite'><img expr:alt='data:post.title' expr:src='data:post.firstImageUrl'/></div>
 </a>
 <b:else/>
 </b:if> 
@@ -1116,16 +1117,16 @@ avatar.find('.comment_avatar img').each(function() {
     <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
       <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
         <data:post.body/>
-        <div style='clear:both;'/> 
+        <div class="cb"/> 
       </div>
     <b:else/>
 		<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
 			<div>
 <div expr:id='&quot;summary&quot; + data:post.id'><data:post.body/></div>
 <script type='text/javascript'>createSnippet(&quot;summary<data:post.id/>&quot;);</script>
-<div style='margin-top:10px;'><a expr:href='data:post.url' style='background: #033888; color: #fff; padding: 3px 7px;'>続きを見る &gt;</a></div>
+<div class="mt10"><a expr:href='data:post.url' class='read-more'>続きを見る &gt;</a></div>
 			</div>
-      <div style='clear:both'/>	
+      <div class="cb"/>	
 		</div>	
     </b:if>	
 	<b:else/>	
@@ -1142,7 +1143,7 @@ avatar.find('.comment_avatar img').each(function() {
 <!-- Kode Banner/Iklan Anda Di sini -->
 &lt;/div&gt;
 </b:if>
-<div style='clear: both;'/> 
+<div class="cb"/> 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='authorboxwrap'>
 <div class='authorboxfull'>
@@ -1159,7 +1160,7 @@ avatar.find('.comment_avatar img').each(function() {
 </div>
 </div>
 </div>
-<div style='clear:both'/>
+<div class="cb"/>
 <h2 class='sharetitle'><span>この記事をシェアする</span></h2>
 <script type='text/javascript'>
 //<![CDATA[
@@ -1187,7 +1188,7 @@ var siteurl = window.location.href;
 $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideToggle("fast")})});
 //]]>
 </script>
-<div style='clear:both'/>
+<div class="cb"/>
 <div id='related-post'>
 <div class='relhead'>
   <h4><span>関連記事</span></h4>
@@ -1201,7 +1202,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
      </div>
 </div>
 </b:if>
-<div style='clear:both;'/>
+<div class="cb"/>
       </div>
 	</b:if>		
   </article> 
@@ -1231,7 +1232,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 </div>
 </div>
   </div>
-<div style='clear: both;'/>
+<div class="cb"/>
 </div>
 </b:if>  
 </b:includable>
@@ -1259,7 +1260,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
       </div>
     </div>
   </div>
-  <div style='clear: both;'/>
+  <div class="cb"/>
   </b:if>
 </b:includable>
       <b:includable id='threaded-comment-form' var='post'>
@@ -1552,7 +1553,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
             <a expr:href='data:post.href'><data:post.title/></a>
           <b:else/>
             <!-- (2) Show only snippets -->
-            <div class='item-title'><a expr:href='data:post.href' expr:title='data:post.title'><data:post.title/></a></div>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
             <div class='item-snippet'><data:post.snippet/></div>
           </b:if>
         <b:else/>
@@ -1562,27 +1563,27 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
               <b:if cond='data:post.thumbnail'>
                 <div class='item-thumbnail'>
                   <a expr:href='data:post.href' target='_blank'>
-                    <img expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:title='data:post.title' expr:width='data:thumbnailSize'/>
+                    <img expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
                   </a>
                 </div>
               </b:if>
               <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
             </div>
-            <div style='clear: both;'/>
+            <div class="cb"/>
           <b:else/>
             <!-- (4) Show snippets and thumbnails -->
             <div class='item-content'>
               <b:if cond='data:post.thumbnail'>
                 <div class='item-thumbnail'>
                   <a expr:href='data:post.href' target='_blank'>
-                    <img expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:title='data:post.title' expr:width='data:thumbnailSize'/>
+                    <img expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
                   </a>
                 </div>
               </b:if>
-              <div class='item-title'><a expr:href='data:post.href' expr:title='data:post.title'><data:post.title/></a></div>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
               <div class='item-snippet'><data:post.snippet/></div>
             </div>
-            <div style='clear: both;'/>
+            <div class="cb"/>
           </b:if>
         </b:if>
       </li>
