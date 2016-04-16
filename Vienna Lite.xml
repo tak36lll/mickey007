@@ -254,7 +254,6 @@ body#layout #main,body#layout #main2{position:relative;background-color:#636798;
 body#layout #main2{background-color:#84c0a0}
 ]]></b:template-skin>
 <link href='https://tak36lll.github.io/mickey007/css/style.css' rel='stylesheet'/>
-
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <link href='https://tak36lll.github.io/mickey007/css/item.css' rel='stylesheet'/>
 </b:if>
@@ -435,61 +434,6 @@ var _0x1b4a=["\x3C","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x74","\x6C\
 
 <nav id='nav' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
 <div id='nav2'>
-<!-- <a class='slide-menu' href='#'><i class='fa fa-list'/> Menu</a>
-<ul class='nav vienna-menu'>
-<li><a class='active' href='/'><span itemprop='name'>Home</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Fitur</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Sitemap 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Sitemap 2</span></a></li>
-<li><a href='http://femart86.blogspot.com/2015/07/tag-and-styling-vienna.html' itemprop='url'><span itemprop='name'>Tag and Styling</span></a></li>
-</ul>
-</li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Menu 1</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 2</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Kota</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Jakarta</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Bandung</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Sukabumi</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Cianjur</span></a></li>
-</ul>				
-</li>
-</ul>
-</li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Menu 2</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 2</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 3</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 2</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 3</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 4</span></a></li>
-</ul>				
-</li>
-</ul>
-</li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Menu 3</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 2</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Submenu 3</span></a>
-<ul>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 1</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 2</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 3</span></a></li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Item 4</span></a></li>
-</ul>				
-</li>
-</ul>
-</li>
-<li><a href='#' itemprop='url'><span itemprop='name'>Mobile</span></a></li>
-<li><a href='http://femart86.blogspot.com/' itemprop='url'><span itemprop='name'>Error 404</span></a></li>
-</ul> -->
 <form action='/search' id='search-form' method='get' style='display: inline;'><table><tbody><tr><td class='search-box'><input id='search-box' name='q' onblur='if(this.value==&apos;&apos;)this.value=this.defaultValue;' onfocus='if(this.value==this.defaultValue)this.value=&apos;&apos;;' type='text' value='検索したいキーワード'/></td>
 <td class='search-button'><input id='search-button' type='submit' value=''/></td></tr></tbody></table></form>
 </div>
