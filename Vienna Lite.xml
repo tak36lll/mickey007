@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html lang='ja' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang='ja' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='utf-8'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
@@ -82,9 +82,130 @@
 <!-- [ /Social Media meta tag ] -->
 <link href='https://www.blogger.com/favicon-image.g?blogID=4207452177407949144' rel='icon' type='image/x-icon'/>
 <!-- [ Style Sheet ] -->
-<b:skin>
-<link rel="stylesheet" href="https://tak36lll.github.io/mickey007/css/skin.css" />
-</b:skin>
+<b:skin><![CDATA[
+/*
+Theme Name       : Vienna Lite
+Theme Publish    : 7 Juli 2015
+Theme Base Color : White, Green, and Blue
+Theme Layout     : 2 Column Frame
+Theme Designer   : Arlina Design
+Designer URL     : http://arlinadesign.blogspot.com
+Thanks to        : All supported
+Theme License    : This free Blogger template is licensed under the Creative Commons Attribution 3.0 License, which permits both personal and commercial use.
+However, to satisfy the &#39;attribution&#39; clause of the license, you are required to keep the footer links intact which provides due credit to its authors. For more specific details about the license, you may visit the URL below:
+http://creativecommons.org/licenses/by/3.0/
+*/
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* CSS HTML5 */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{background:transparent;}table{border-collapse:collapse;border-spacing:0;}
+/* CSS Framework */
+*, *:before, *:after {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.navbar,.post-feeds,.feed-links{display:none;}
+.section,.widget{margin:0 0 0 0;padding:0 0 0 0;}
+strong,b{font-weight:bold;padding:0;transition:color 0.2s;}
+strong,b:hover{left:-0.1em;content: '[';-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+cite,em,i{font-style:italic;}
+a:link{color:#033888;text-decoration:none;outline:none;transition:all 0.25s;}
+a:visited{color:#303030;text-decoration:none;}
+a:link:hover{color:#303030;text-decoration:none;}
+a:visited:hover{color:#033888;text-decoration:none;}
+a img{border:none;border-width:0;outline:none;}
+img{max-width:100%;vertical-align:middle;border:0;}
+abbr,acronym{border-bottom:1px dotted;cursor:help;}
+sup,sub{vertical-align:baseline;position:relative;top:-.4em;font-size:86%;}
+sub{top:.4em;}small{font-size:86%;}
+kbd {display:inline-block;border:1px solid #ccc;border-radius:4px;padding:0.1em 0.5em;margin:0 0.2em;box-shadow:0 1px 0px rgba(0,0,0,0.2), 0 0 0 2px #fff inset;background-color:#f7f7f7;}
+mark{background-color:#ffce00;color:#182025;}
+p,blockquote,pre,table,figure,hr,form,ol,ul,dl{margin:1.5em 0;}
+hr{height:1px;border:none;background-color:#999;}
+code,kbd,pre,samp{font-family:monospace,monospace;}
+pre{white-space:pre;word-wrap:normal;overflow:auto;}
+blockquote{position:relative;line-height:2;margin:15px 0;border-left:3px solid #c69f73;font-weight:400;padding:0 18px;}
+*:focus {outline:0!important;}
+/* CSS Blog Heading */
+h1,h2,h3,h4,h5,h6{font-weight:700;line-height:normal;margin:0 0 0.6em;}
+h1{font-size:200%}
+h2{font-size:180%}
+h3{font-size:160%}
+h4{font-size:140%}
+h5{font-size:120%}
+h6{font-size:100%}
+/* CSS Form */
+input,button,select,textarea{font-size:100%;line-height:normal;vertical-align:baseline;}
+textarea{display:block;box-sizing:border-box;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder,input:-moz-placeholder,textarea:-moz-placeholder,input.placeholder_text,textarea.placeholder_text{color:#888}[placeholder]:focus::-webkit-input-placeholder{transition:opacity .5s .5s ease;opacity:0}
+/* Print Styling */
+@media print {
+*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}
+a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href)")"}abbr[title]:after{content:" (" attr(title)")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}
+@page {margin:0.5cm;}
+p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/* CSS List */
+ul,dl{margin:.5em 0em .5em 3em}
+ol{list-style:decimal outside}
+ul{list-style:disc outside}
+li{margin:.5em 0}
+dt{font-weight:bold}
+dd{margin:0 0 .5em 2em}
+.post ul li span{position:relative;display:block;margin:0;padding:5px 8px;margin-bottom:10px;text-decoration:none;transition:all .3s;}
+ol {counter-reset:li;list-style:none;font:15px 'Open Sans', 'lucida sans';padding:0;margin-bottom:4em;text-shadow:0 1px 0 rgba(255,255,255,.5);}
+ol ol {margin: 0 0 0 2em;}
+.post ol li{position:relative;display:block;padding:.4em .4em .4em .8em;
+margin:.5em 0 .5em 2.5em;background:#fff;color:#666;text-decoration:none;
+transition:all .3s ease-out;}
+.post ol li:before {content:counter(li);counter-increment:li;position:absolute;left:-2.5em;
+top:50%;margin-top:-1em;height:2em;width:2em;line-height:2em;text-align:center;}
+/* CSS Post Table */
+.post-body table td, .post-body table caption{border:1px solid #e6e6e6;padding:10px;text-align:left;vertical-align:top;}
+.post-body table th {border:1px solid #009abf;padding:10px;text-align:left;vertical-align:top;}
+.post-body table.tr-caption-container {border:1px solid #eee;}
+.post-body th{font-weight:700;}
+.post-body table caption{border:none;font-style:italic;}
+.post-body table{}
+.post-body td, .post-body th{vertical-align:top;text-align:left;font-size:14px;padding:3px 5px;border:1px solid #eee;}
+.post-body td:hover{background:#fefefe;}
+.post-body th{background:#00acd6;color:#fff;}
+.post-body th:hover{background:#009fc6;}
+.post-body td a{color:#444;}
+.post-body td a:hover{color:#033888;}
+.post-body table.tr-caption-container td {border:none;padding:8px;}
+.post-body table.tr-caption-container, .post-body table.tr-caption-container img, .post-body img {max-width:100%;height:auto;}
+.post-body li {list-style-type:square;}
+.post-body td.tr-caption {color:#666;font-size:80%;padding:0px 8px 8px !important;}
+img {max-width:100%;height:auto;border:none;}
+table {max-width:100%;width:100%;margin:1.5em auto;}
+table.section-columns td.first.columns-cell{border-left:none}
+table.section-columns{border:none;table-layout:fixed;width:100%;position:relative}
+table.columns-2 td.columns-cell{width:50%}
+table.columns-3 td.columns-cell{width:33.33%}
+table.columns-4 td.columns-cell{width:25%}
+table.section-columns td.columns-cell{vertical-align:top}
+table.tr-caption-container{padding:4px;margin-bottom:.5em}
+td.tr-caption{font-size:80%}
+.widget ul {padding:0;}
+/* CSS Global Wrapper */
+body {background:#eaeaea none repeat scroll top left;margin:0;padding:0;color:#404040;font-family: Arial, Roboto, 'Droid Sans', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;;font-size:14px;font-weight:400;text-align:left;}
+#viennalite-wrapper {max-width:1060px;margin:0 auto;padding:0;overflow:hidden;}
+.post-inner {padding:15px 0 0 0;}
+#header-wrapper {overflow:hidden;}
+
+#header {float:left;width:100%;max-width:257px;}
+.header-right {float:right;padding:0;overflow:hidden;margin:0;width:100%;
+max-width:728px;}
+#sidebar-wrapper {float:right;width:30%;margin:0 auto;}
+.header-wrapper2 {position:relative;z-index:999;}
+.viennatop-wrapper {overflow:hidden;position:relative;}
+.vitop-wrapper {padding:0 20px;position:relative;max-width:1060px;margin:0 auto;}
+#footer-wrapper {text-align:left;overflow:hidden;margin:0;}
+.footer {padding-bottom:.2em;}
+.footer-bottom {min-height:40px;}
+#footx1,#footx2,#footx3 {margin:0 .2%}
+#footer-widgetlite .footer-widget {width:30.2%;float:left;margin-left:20px;}
+#footer-widgetlite {max-width:1060px;overflow:hidden;margin:0 auto;}
+#footer-wrapper .widget-content li {margin-left:-14px;}
+#footer-wrapper .widget li {margin:5px 0 0 0;padding:5px 0 0 15px;display:block;}
+]]></b:skin>
 <b:template-skin>
 <![CDATA[
 /* CSS Body Layout */
@@ -132,78 +253,21 @@ body#layout #viennaprobox-1,body#layout #viennaprobox-2,body#layout #viennaprobo
 body#layout #main,body#layout #main2{position:relative;background-color:#636798;padding:20px 10px !important;margin-bottom:20px;clear:both}
 body#layout #main2{background-color:#84c0a0}
 ]]></b:template-skin>
-<link rel="stylesheet" href="https://tak36lll.github.io/mickey007/css/style.css" />
+<link href='https://tak36lll.github.io/mickey007/css/style.css' rel='stylesheet'/>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<link rel="stylesheet" href="https://tak36lll.github.io/mickey007/css/item.css" />
+<link href='https://tak36lll.github.io/mickey007/css/item.css' rel='stylesheet'/>
 </b:if>
 
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
-<style type='text/css'>
-/* CSS Post Wrapper */
-.post-inner {padding:0;}
-.post-outer{padding:30px;}
-.post{background:#fff;margin:0;padding:0;border:0;transition:all .6s ease-in-out}
-.post-body{line-height:1.6em;padding:0;font-size:14px;margin-top:20px;text-overflow:ellipsis}
-.viennalite-info {margin-top:15px;margin-right:15px;margin-bottom:0;padding:0;font-size:14px;}
-.viennalite-info a {display:inline;background:transparent;color:#999;padding:5px;padding-left:0;margin-bottom:10px;transition:all .3s ease-out;}
-.viennalite-info a:hover {background:transparent;color:#033888;}
-.author-info, .time-info, .comment-info, .review-info {display:inline;padding:0;}
-.viennalite-info {background:transparent;}
-.author-info, .time-info, .comment-info, .review-info, .viennalite-info a {color:#999;}
-.author-info, .time-info, .comment-info, .review-info {margin-right:8px;}
-.img-thumblite{overflow:hidden;background:#fbfbfb;position:relative;height:auto;margin:20px 0 auto;z-index:1;padding:0}
-.img-thumblite img {width:100%;height:auto;transform:scale(1.0);backface-visibility:hidden;transition:transform 1.6s;}
-.img-thumblite:hover img {transform:scale(1.02);}
-
-/* CSS Animate Heading */
-h2.post-title,h1.post-title{font-family:&#39;Roboto Condensed&#39;;font-size:32px;padding:0;margin:0;text-align:left;font-weight:700}
-h2.post-title a:hover, h1.post-title a:hover,h2.post-title:hover, h1.post-title:hover {color:#444!important;}
-h2.post-title a, h1.post-title a {color:#444;padding:0;margin:0;position:relative;display:inline-block;}
-h2.post-title a::before,h1.post-title a::before{display:inline-block;position:absolute;top:0;left:0;overflow:hidden;padding:0;width:100%;height:0;color:#033888;content:attr(data-hover);transition:height .6s}
-h2.post-title a:hover::before, h2.post-title a:focus::before {height:100%;}
-
-/* CSS Label Info */
-.post .label-info{margin:0;padding:0;display:inline-block;position:absolute;right:2%;top:17%;z-index:2}
-.label-info a{position:relative;background:#fff;font-size:12px;display:block;text-transform:uppercase;padding:5px 10px;line-height:normal;font-weight:700;margin:0;transition:all .3s ease-out}
-.label-info a:hover{background:rgba(79,175,233,1);color:#fff;}
-.label-info a i {color:#ffde79;transition:all .3s ease-out}
-.label-info a:hover i {color:#fff;}
-.label-info a:nth-child(n+2){display:none;}
-
-/* CSS Homepage Responsive */
-@media only screen and (max-width:768px){
-.img-thumblite {margin:0 10px 0 0;}
-.viennalite-info {margin-bottom:10px;font-size:12px;}
-.post-body {margin-top:15px;}}
-
-@media only screen and (max-width:640px){
-#content-wrapper {padding:0;}
-h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:24px;margin:0px 0;clear:both;padding:10px 0 0 0;}
-.post {padding:10px 15px;}
-.post-outer {padding:0;}
-.post-body {margin-bottom:10px;padding:0;}
-.img-thumblite {width:100%;max-width:100%;height:auto;margin:0;}
-.img-thumblite img {width:100%;height:auto;}
-.post .label-info{position:relative;left:0;margin:10px 0}
-.label-info a{padding:3px 7px;font-weight:400;color:#444;text-transform:none;}
-div#HTML13,div#HTML14 {padding:0 0 15px 0;}
-h2.post-title a:hover, h1.post-title a:hover,h2.post-title:hover, h1.post-title:hover {color:#444!important;text-decoration:underline}
-h2.post-title a, h1.post-title a {display:block;}
-h2.post-title a::before,h1.post-title a::before,h2.post-title a:hover::before, h2.post-title a:focus::before{display:none;}}
-
-@media only screen and (max-width:480px){
-h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:18px;}}
-</style>
+<link href='https://tak36lll.github.io/mickey007/css/not_item_static.css' rel='stylesheet'/>
 </b:if>
 </b:if>
-
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-<link rel="stylesheet" href="https://tak36lll.github.io/mickey007/css/static_page.css" />
+<link href='https://tak36lll.github.io/mickey007/css/static_page.css' rel='stylesheet'/>
 </b:if>
-
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
-<link rel="stylesheet" href="https://tak36lll.github.io/mickey007/css/error_page.css" />
+<link href='https://tak36lll.github.io/mickey007/css/error_page.css' rel='stylesheet'/>
 </b:if>
 <!-- [ /Style Sheet ] -->
 <!-- [ Javascript ] -->
@@ -272,7 +336,7 @@ var _0x1b4a=["\x3C","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x74","\x6C\
 <div id='header-wrapper' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
 <div class='header-wrapp'>
   <b:section class='header section' id='header' maxwidgets='1' showaddelement='no'>
-    <b:widget id='Header1' locked='true' title='Vienna Lite (Header)' type='Header'>
+    <b:widget id='Header1' locked='true' title='dev-mickey007 (Header)' type='Header' version='1' visible='true'>
       <b:includable id='main'>
   <b:if cond='data:useImage'>
     <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
@@ -352,7 +416,7 @@ var _0x1b4a=["\x3C","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x74","\x6C\
     </b:widget>
   </b:section>
   <b:section class='header-right section' id='header-right' maxwidgets='1' showaddelement='yes'>
-    <b:widget id='HTML2' locked='false' title='' type='HTML'>
+    <b:widget id='HTML2' locked='false' title='' type='HTML' version='1' visible='true'>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -437,7 +501,7 @@ var _0x1b4a=["\x3C","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x74","\x6C\
 <div id='post-wrapper'>
 <div class='post-inner'>
   <b:section class='main' id='main' maxwidgets='3' showaddelement='yes'>
-    <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog'>
+    <b:widget id='Blog1' locked='true' title='ブログの投稿' type='Blog' version='1' visible='true'>
       <b:includable id='main' var='top'>
 	  <b:include data='posts' name='breadcrumb'/>
   <b:if cond='data:mobile == &quot;false&quot;'>
@@ -1719,7 +1783,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 <div class='clear'/>
 <div class='vietabslite vietabslite-1'>
 <b:section class='vita-list vita-list-1 section' id='vita-list-1' showaddelement='yes'>
-  <b:widget id='PopularPosts1' locked='false' title='Weekly' type='PopularPosts'>
+  <b:widget id='PopularPosts1' locked='false' title='Weekly' type='PopularPosts' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
@@ -1773,7 +1837,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
   </b:widget>
 </b:section>
 <b:section class='vita-list vita-list-2 section' id='vita-list-2' showaddelement='yes'>
-  <b:widget id='BlogArchive1' locked='false' mobile='yes' title='Archive' type='BlogArchive'>
+  <b:widget id='BlogArchive1' locked='false' mobile='yes' title='Archive' type='BlogArchive' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title'>
     <h2><data:title/></h2>
@@ -1857,7 +1921,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
   </b:widget>
 </b:section>
 <b:section class='vita-list vita-list-3 section' id='vita-list-3' showaddelement='yes'>
-  <b:widget id='HTML4' locked='false' title='Comments' type='HTML'>
+  <b:widget id='HTML4' locked='false' title='Comments' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -1872,7 +1936,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 </div>
 <div class='clear'/>
 <b:section class='sidebar section' id='sidebar' preferred='yes'>
-  <b:widget id='Label2' locked='false' title='Cloud Label' type='Label'>
+  <b:widget id='Label2' locked='false' title='Cloud Label' type='Label' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'>
     <h2><data:title/></h2>
@@ -1910,7 +1974,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML3' locked='false' title='' type='HTML'>
+  <b:widget id='HTML3' locked='false' title='' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -1921,7 +1985,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='Label1' locked='false' title='Popular Tags' type='Label'>
+  <b:widget id='Label1' locked='false' title='Popular Tags' type='Label' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title'>
     <h2><data:title/></h2>
@@ -1974,7 +2038,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 <div id='footer-widgetlite'>
 <div class='footer-widget' id='footx2'>
 <b:section class='footer' id='footer2'>
-  <b:widget id='Label3' locked='false' mobile='yes' title='Label' type='Label'>
+  <b:widget id='Label3' locked='false' mobile='yes' title='Label' type='Label' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title'>
     <h2><data:title/></h2>
@@ -2016,7 +2080,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 </div>
 <div class='footer-widget' id='footx3'>
 <b:section class='footer' id='footer3'>
-  <b:widget id='HTML14' locked='false' mobile='yes' title='Follow us' type='HTML'>
+  <b:widget id='HTML14' locked='false' mobile='yes' title='Follow us' type='HTML' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
   <div class='widget-content'>
@@ -2030,7 +2094,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 </div>
 </b:includable>
   </b:widget>
-  <b:widget id='ContactForm1' locked='false' mobile='yes' title='Formulir Kontak' type='ContactForm'>
+  <b:widget id='ContactForm1' locked='false' mobile='yes' title='Formulir Kontak' type='ContactForm' version='1' visible='true'>
     <b:includable id='main'>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
   <b:if cond='data:title != &quot;&quot;'>
@@ -2068,7 +2132,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 </div>
 <div class='footer-widget' id='footx1'>
 <b:section class='footer' id='footer1'>
-  <b:widget id='Translate1' locked='false' title='TRANSLATE' type='Translate'>
+  <b:widget id='Translate1' locked='false' title='TRANSLATE' type='Translate' version='1' visible='true'>
     <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
