@@ -2,7 +2,7 @@
 #footer-wrapper,#header-wrapper {visibility:hidden;opacity:0,z-index:-1;width:0;height:0}
 body {overflow:hidden;}
 /* CSS Custom Error Page */
-#oopss {background:#eee;text-align:center;margin-bottom:50px;font-weight:400;font-size:30px;font-family:&#39;Roboto Condensed&#39;,sans-serif;position:fixed;width:100%;height:100%;line-height:1.5em;z-index:9999;}
+#oopss {background:#eee;text-align:center;margin-bottom:50px;font-weight:400;font-size:30px;font-family:'Roboto Condensed',sans-serif;position:fixed;width:100%;height:100%;line-height:1.5em;z-index:9999;}
 #error-text {top:30%;position:relative;font-size:30px;color:#666;}
 #error-text a{color:#666;}
 #error-text p {margin:0!important;}

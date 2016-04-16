@@ -16,7 +16,7 @@ h3.post-title, h2.post-title, h1.post-title {margin-top:10px;font-weight:400;fon
 
 /* Share Button */
 h2.sharetitle{position:relative;overflow:hidden;margin:20px 0;font-size:120%;font-weight:700;padding:4px 8px;text-align:center;text-transform:uppercase;transition:all .5s ease-out}
-h2.sharetitle:before, h2.sharetitle:after {position:absolute;top:51%;overflow:hidden;width:50%;height:2px;content:&#39;\a0&#39;;background-color:#ddd;}
+h2.sharetitle:before, h2.sharetitle:after {position:absolute;top:51%;overflow:hidden;width:50%;height:2px;content:'\a0';background-color:#ddd;}
 h2.sharetitle:before{margin-left:-50%;text-align:right;}
 h2.sharetitle span{position:relative;display:inline-block;padding:5px 10px;margin:0 10px;}
 .sharede,.sharelite{position:relative;display:inline-block;}
@@ -40,7 +40,7 @@ ul#share-menu{margin:10px 0;padding:5px 15px}
 /* CSS Related Posts */
 #related-post {margin:0 auto;padding:0;text-align:center;}
 #related-post h4 {position:relative;overflow:hidden;padding:0;margin:10px 0 20px 0;font-size:120%;font-weight:700;padding:4px 8px;text-align:center;text-transform:uppercase;transition:all 0.5s ease-out;}
-#related-post h4:before, #related-post h4:after {position:absolute;top:51%;overflow:hidden;width:50%;height:2px;content:&#39;\a0&#39;;background-color:#ddd;}
+#related-post h4:before, #related-post h4:after {position:absolute;top:51%;overflow:hidden;width:50%;height:2px;content:'\a0';background-color:#ddd;}
 #related-post h4:before{margin-left:-50%;text-align:right;}
 #related-post h4 span{position:relative;display:inline-block;padding:5px 10px;margin:0 10px;}
 .relhead {background:#fff;font-size:100%;font-weight:normal;line-height:150%;overflow:hidden;padding:10px 0;}
