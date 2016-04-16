@@ -1140,14 +1140,14 @@ avatar.find('.comment_avatar img').each(function() {
 </b:if>	
             <div style='clear: both;'/> 
 				<div id='share-buttons-mobile'>
-				<p>Share : </p>
+				<p>共有する : </p>
 				<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url' rel='nofollow' style='background:#3b5998;'>Facebook</a>
 				<a expr:href='&quot;http://plus.google.com/share?url=&quot; + data:blog.url' rel='nofollow' style='background:#c0361a;'>Google+</a>
 				<a expr:href='&quot;https://twitter.com/intent/tweet?url=&quot; + data:blog.url + &quot;&amp;text=&quot; + data:post.title + &quot;&amp;lang=id&quot;' rel='nofollow' style='background:#4099ff;'>Twitter</a>
 				<div class='clear'/>
 				</div>
 				<div id='related-posts-mobile'>
-				<h3>関連記事 :</h3>
+				<h3>関連記事を見る :</h3>
 				<b:loop values='data:post.labels' var='label'> <b:if cond='data:label.isLast != &quot;true&quot;'/> <b:if cond='data:blog.pageType == &quot;item&quot;'> <script expr:src='&quot;/feeds/posts/default/-/&quot; + data:label.name + &quot;?alt=json-in-script&amp;callback=related_results_labels&amp;amp;max-results=5&quot;' type='text/javascript'/></b:if> </b:loop> <script type='text/javascript'> removeRelatedDuplicates(); printRelatedLabels(); </script>
 				</div>
           </div>
@@ -2139,28 +2139,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
   </b:widget>
 </b:section>
 </div>
-<div class='footer-widget' id='footx1'>
-<b:section class='footer' id='footer1'>
-  <b:widget id='Translate1' locked='false' title='TRANSLATE' type='Translate' version='1' visible='true'>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div id='google_translate_element'/>
-  <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: &#39;<data:pageLanguage/>&#39;,
-        autoDisplay: &#39;true&#39;,
-        layout: google.translate.TranslateElement.InlineLayout.<data:layout/>
-      }, &#39;google_translate_element&#39;);
-    }
-  </script>
-  <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'/>
-</b:includable>
-  </b:widget>
-</b:section>
-</div>
+
 </div>
 </div>
 <div id='footer-last'>
@@ -2168,9 +2147,7 @@ $(document).ready(function(){$(".pl").click(function(){$("#share-menu").slideTog
 <div class='vieleftcredit'>
 &#169; <span id='current-year'/> <a expr:href='data:blog.homepageUrl' itemprop='creator' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'><data:blog.title/></span></a>
 </div>
-<div id='vierightcredit'>
-Created by <a href='http://arlinadesign.blogspot.com' id='vierightcredit' rel='nofollow' target='_blank'>Arlina Design</a> 
-</div> <center>Distributed By <a href='http://gooyaabitemplates.com/' rel='dofollow' target='_blank' title='Blogger Templates'>Gooyaabi Templates</a></center>
+<div id='vierightcredit'></div>
 </div>
 </div>
 </footer>
