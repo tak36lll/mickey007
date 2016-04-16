@@ -32,41 +32,20 @@ h3.post-title {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
-.author-info,.comment-info,.review-info,.time-info,.viennalite-info a {
+.author-info,.comment-info,.review-info,.label-info,.time-info,.viennalite-info a {
     color: #444;
 }
 .viennalite-info a:hover {
     color: #888;
 }
-
-.label-info {
-    float: right;
-}
-.label-info a {
-    background: #033888;
-    color: #fff;
-    padding: 3px 7px;
-}
-.label-info a:hover {
-    color: #fff;
-}
-
 /* CSS Label Info */
 .label-info {
     float: right;
 }
 
 .label-info a {
-    position: relative;
     background: #fff;
-    font-size: 12px;
-    display: block;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    line-height: normal;
-    font-weight: 700;
-    margin: 0;
-    transition: all 0.3s ease-out;
+    padding: 3px 7px;
 }
 .label-info a:hover {
     background: rgba(79, 175, 233, 1);
