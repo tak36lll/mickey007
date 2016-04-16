@@ -1075,7 +1075,7 @@ span:last-child {
 }
 
 .post-body a:hover.read-more  {
-    color: #ffde79;
+    background: rgba(79, 175, 233, 1);
 }
 
 h3.post-title, h2.post-title, h1.post-title {
