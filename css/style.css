@@ -22,7 +22,7 @@
 /* Float Clear Align*/
 .fl {float:left;}
 .fr {float:right;}
-.clear {clear:both;}
+.cb {clear:both;}
 .vm {vertical-align:middle;}
 .vb {vertical-align:bottom;}
 .ar {text-align: right;}
