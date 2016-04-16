@@ -52,7 +52,7 @@ h3.post-title {
     color: #fff;
 }
 
-.label-info a i.fa.fa-bookmark {
+.label-info i.fa.fa-bookmark {
     color: #ffde79;
     transition: all 0.3s ease-out;
 }
