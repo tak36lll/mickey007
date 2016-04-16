@@ -253,11 +253,20 @@ body#layout #viennaprobox-1,body#layout #viennaprobox-2,body#layout #viennaprobo
 body#layout #main,body#layout #main2{position:relative;background-color:#636798;padding:20px 10px !important;margin-bottom:20px;clear:both}
 body#layout #main2{background-color:#84c0a0}
 ]]></b:template-skin>
-<link href='https://tak36lll.github.io/mickey007/css/style.css' rel='stylesheet'/>
+
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <link href='https://tak36lll.github.io/mickey007/css/item.css' rel='stylesheet'/>
 </b:if>
-
+<link href='https://tak36lll.github.io/mickey007/css/style.css' rel='stylesheet'/>
+<style type="text/css">
+#search-form {background:#fcfcfc;float:right;margin:0 0;}
+#search-form table {width:100%;margin:0 0 0 0;}
+#search-form td.search-box {padding-right:30px;}
+#search-form input#search-box[type=&quot;text&quot;] {background:#fff;height:36px;line-height:36px;margin:5px 0 5px 10px;padding:0 10px;width:100%;color:#aaa;border:1px solid #ccc;border-radius:5px 0 0 5px;font-size:95%;transition:all .5s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial;}
+#search-form input#search-button[type=&quot;submit&quot;] {font-family:FontAwesome;background:#033888;color:#fff;line-height:38px;margin-left:-5px;padding:0 16px;border:0;outline:none;font-size:14px;border-radius:0 5px 5px 0;transition:all 0.25s;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial;}
+#search-form input#search-button[type=&quot;submit&quot;]:hover{background:#61bef6;cursor:pointer;}
+#search-form input#search-box[type=&quot;text&quot;]:focus {background:#fff;color:#444;outline:none;border-color:#aaa;}
+</style>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <link href='https://tak36lll.github.io/mickey007/css/not_item_static.css' rel='stylesheet'/>
