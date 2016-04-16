@@ -286,9 +286,9 @@ span.small-button1 {text-align:left;display:inline-block;}
 .vietabslite-menu .active-tab span{text-align:center;display:inline-block;color:#033888}
 .vietabslite-menu li span{display:block;}
 .vietabslite-menu li:before {display:none;font-family:Fontawesome;text-align:center;font-size:16px;padding:2px 15px 0;}
-.vietabslite-menu li:nth-child(1):before {content:&#39;\f09e&#39;;}
-.vietabslite-menu li:nth-child(2):before {content:&#39;\f006&#39;;}
-.vietabslite-menu li:nth-child(3):before {content:&#39;\f0e6&#39;;}
+.vietabslite-menu li:nth-child(1):before {content:'\f09e';}
+.vietabslite-menu li:nth-child(2):before {content:'\f006';}
+.vietabslite-menu li:nth-child(3):before {content:'\f0e6';}
 .vietabslite-menu li.active-tab{border-bottom-color:#033888}
 .vietabslite-content {padding:0;}
 .vietabslite-content .sidebar li {margin:0;padding:0;}
