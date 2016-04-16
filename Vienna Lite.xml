@@ -190,7 +190,7 @@ td.tr-caption{font-size:80%}
 body {background:#eaeaea none repeat scroll top left;margin:0;padding:0;color:#404040;font-family: Arial, Roboto, 'Droid Sans', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;;font-size:14px;font-weight:400;text-align:left;}
 #viennalite-wrapper {max-width:1060px;margin:0 auto;padding:0;overflow:hidden;}
 .post-inner {padding:15px 0 0 0;}
-#header-wrapper {margin:20px;overflow:hidden;}
+#header-wrapper {overflow:hidden;}
 
 #header {float:left;width:100%;max-width:257px;}
 .header-right {float:right;padding:0;overflow:hidden;margin:0;width:100%;
